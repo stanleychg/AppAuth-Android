@@ -16,8 +16,6 @@ package net.openid.appauthdemo;
 
 import android.annotation.SuppressLint;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import net.openid.appauth.Preconditions;
@@ -37,6 +35,9 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * An example implementation of {@link ConnectionBuilder} that permits connecting to http

@@ -16,9 +16,6 @@ package net.openid.appauthdemo;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.support.annotation.AnyThread;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import net.openid.appauth.AuthState;
@@ -32,6 +29,10 @@ import org.json.JSONException;
 import java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.ReentrantLock;
+
+import androidx.annotation.AnyThread;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * An example persistence mechanism for an {@link AuthState} instance.
